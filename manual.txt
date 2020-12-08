@@ -1,0 +1,31 @@
+options:
+	- board mode: 
+		- 1: normal game of life
+		- 0: accidentally made cool looking algorithm 
+
+	- draw mode:
+		- line: draw continuous line
+		- dot: draw dot where mouse if every frame
+
+	- speed: simulation speed
+
+controls:
+	- spacebar: pause / unpause simulation
+	- number keys: change speed (0 = unlimited)
+	- ESC: quit application
+	
+	- mouse wheel: zoom
+	- mouse3: drag camera
+	
+	- when paused:
+		- M: change board mode
+		- D: change draw mode
+		- mouse1: draw living cells
+		- mouse2: draw dead cells
+		- mouse1/2 + shift: draw straight lines
+		- S: hold S to select an area with mouse
+		- ctrl+D: deselect
+		- ctrl+C: copy selected area (includes selection border)
+		- ctrl+V: paste area in clipboard to mouse position (topleft origin)
+		- ctrl+X or DEL: clear screen, or a selected area
+	  
